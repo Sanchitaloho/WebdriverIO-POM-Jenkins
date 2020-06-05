@@ -2,7 +2,7 @@ const loginpage=require('../pages/loginpage')
 const configdata= require("../config")
 
 describe("Handling application login page feature in webdriver IO", function(){
-
+    this.retries(2) ; // coming from mocha
     it("verify login page title",function(){
         
        browser.url('/');
