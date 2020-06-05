@@ -5,10 +5,10 @@ class LoginPage{
 
 
     //page locators
-    get username(){return $('#username') } 
-    get password(){return $('#password') } 
-    get loginButton(){return $('#loginBtn') } 
-    get signuplink(){return $('=Sign up')}
+    get username(){ return $('#username') } 
+    get password(){ return $('#password') } 
+    get loginButton(){ return $('#loginBtn') } 
+    get signuplink(){ return $('=Sign up')}
         // page actions
 
     getPageTitle(){
@@ -16,7 +16,7 @@ class LoginPage{
     }
     
     isSignuplinkDisplayed(){
-        elementutil.doIsDisplayed(this.signuplink)
+       return elementutil.doIsDisplayed(this.signuplink)
     }
      
     doLogin(emailID,pwd){

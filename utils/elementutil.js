@@ -21,7 +21,7 @@ class ElementUtil{
     }
     doGetPagetitle(pagetitle){
         browser.waitUntil(function(){
-            return (browser.getTitle()==pagetitle)
+            return (browser.getTitle()=== pagetitle)
             },10000, 'Title is not displayed within given time'
         )
         return browser.getTitle()

@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sanchitaloho/WebdriverIO-POM-Jenkins.git"
+    "url": "https://github.com/Sanchitaloho/WebdriverIO-POM-Jenkins.git"
   },
   "author": "sanchita loho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sanchitaloho/WebdriverIO-POM-Jenkins/issues"
+    "url": "https://github.com/Sanchitaloho/WebdriverIO-POM-Jenkins"
   },
-  "homepage": "https://github.com/Sanchitaloho/WebdriverIO-POM-Jenkins#readme",
+  "homepage": "https://github.com/Sanchitaloho/WebdriverIO-POM-Jenkins",
   "devDependencies": {
     "@wdio/allure-reporter": "^6.1.14",
     "@wdio/cli": "^6.1.16",
